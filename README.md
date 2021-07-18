@@ -99,14 +99,12 @@
 
 :pushpin: pour changer le statut de votre serveur, vous pouvez utiliser les commandes suivantes selon vos besoins:
 
+ :~$ sudo systemctl start openvpn-server@server.servic
+ 
+ :~$ sudo systemctl restart openvpn-server@server.service
 
+ :~$ sudo systemctl stop openvpn-server@server.service
 
-:star: 
-:~$ sudo systemctl start openvpn-server@server.service
-:star: 
-:~$ sudo systemctl restart openvpn-server@server.service
-:star: 
-:~$ sudo systemctl stop openvpn-server@server.service
  
  
 
