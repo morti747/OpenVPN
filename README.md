@@ -102,7 +102,9 @@
 
 
 :star: ~$ sudo systemctl start openvpn-server@server.service
+#: 
 :star: ~$ sudo systemctl restart openvpn-server@server.service
+#:
 :star: ~$ sudo systemctl stop openvpn-server@server.service
  
  
